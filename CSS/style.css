@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 #main {
-
 font-family: 'Dancing Script', cursive;
 margin: 0;
 padding: 0;
@@ -11,12 +10,4 @@ width: 100%;
 max-height: 200px;
 height: 100%;
 background-color: rgb(210,179,229)}
-}
-#home-nativagtion {
-  margin: 0;
-  padding: 0;
-  float: center;
-  margin-center: .5em;
-  width: 100%;
-;
 }
