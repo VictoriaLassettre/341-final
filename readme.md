@@ -20,3 +20,13 @@ Wire frames:
 ![Becca](./imgs/wireframebecca.png)
 - Home:
 ![home](./imgs/wireframehome.png)
+
+# Update 11 May 2017
+- Finished the website!
+- One problem that I faced was the parallax, it wasn't cooporating for the longest time and for some reason couldn't get it to work on the Elisabeth das Musical page for one of the images.
+- In the future I'd like to come back to this project and update it further with photos, videos, and more cast lists.
+
+## Some code images
+- ![Elisabeth](./imgs/elisabethsnap.png)
+- ![Rebecca](./imgs/rebeccasnap.png)
+- ![Becca](imgs/rebeccasnap2.png)

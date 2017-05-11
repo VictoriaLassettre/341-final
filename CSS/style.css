@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
+@media only screen and (max-device-width: 960px) {
+                                                   .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9
+                                                   {background-attachment: scroll;}
+}
 #main {
 font-family: 'Dancing Script', cursive;
 margin: 0;
@@ -11,3 +14,182 @@ max-height: 200px;
 height: 100%;
 background-color: rgb(210,179,229)}
 }
+
+.img1 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.img2 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img3 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img4 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img5 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img6 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img7 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img8 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img9 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+.img1 {
+        min-height: 800px;
+        background-image: url("../imgs/dascover.jpg");
+        }
+.img2 {
+        min-height: 800px;
+        background-image: url("../imgs/elisabethsternkleid.jpg");
+      ;
+}
+.img3 {
+      min-height: 200px;
+      background-image: url("../imgs/thecast.jpg");
+}
+.img4 {min-height: 800px;
+      background-image: url("../imgs/IchundDanny.jpg");
+}
+.img5 {min-height: 800px;
+      background-image: url("../imgs/MaximundIch.jpg");
+}
+.img6 {min-height: 200px;
+      background-image: url("../imgs/Rebecca.jpg");
+}
+.img7 {min-height: 200px;
+      background-image: url("../imgs/dasPoster.jpg");
+}
+.img8 {min-height: 800px;
+      background-image: url("../imgs/SarahundCount.jpg");
+}
+.img9 {min-height: 800px;
+      background-image: url("../imgs/dieBesetzung.jpg");
+}
+.caption {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          color: rgb(0, 0, 0);
+          text-align: center;}
+
+.description-container {
+                        position: relative;}
+.navigation {
+      padding: 50px 80px;
+      color: rgb(0, 255, 255);
+      width: 10%;
+      background-color: rgb(0, 0, 0);
+      text-align: left;
+}
+.what-is-going-on {
+      padding: 25px 40px;
+      color: rgb(137, 85, 85);
+      background-color: rgb(0, 0, 0);
+      text-align: center;}
+
+
+.who-was-Sisi {  padding: 25px 40px;
+      color: rgb(137, 85, 85);
+      background-color: rgb(0, 0, 0);
+      text-align: center;}
+
+.this-is-based-upon {  padding: 25px 40px;
+      color: rgb(137, 85, 85);
+      background-color: rgb(0, 0, 0);
+      text-align: center;}
+
+.whats-with-the-vampire {
+    padding: 25px 40px;
+      color: rgb(137, 85, 85);
+      background-color: rgb(0, 0, 0);
+      text-align: center;}
+.what-is-going-on-becca {
+  padding: 1px 15px;
+  color: rgb(137, 85, 85);
+  background-color: rgb(0, 0, 0);
+  text-align: center;}
+
+.what-is-rebecca {
+  padding: 1px 15px;
+  color: rgb(137, 85, 85);
+  background-color: rgb(0, 0, 0);
+  text-align: center;}
+
+.menuitem {
+                                  display: inline-block;
+                                  padding: 0.0em 0em;
+                                  padding-right: .1em;
+                                  text-align: left;
+                                  text-decoration: none;
+                                  font-family: 'Dancing Script', cursive;
+                                  color: rgb(137, 85, 85);}
+.menuitem:hover, .dropdown:hover {
+                color: rgb(137, 85, 85);
+                background-color: rgb(0, 0, 0);
+                                  }
+                .dropdown {
+                display: inline-block;
+                width: 10%;
+                min-width: 75px;}
+
+.dropdown-items {
+                display: none;
+                position: absolute;
+                border: 5px solid rgb(0, 0, 0);
+                margin: 0;
+                color: rgb(137, 85, 85);
+                background-color: rgb(255, 255, 255);
+               z-index: 1;}
+
+.dropdown-items a {
+                color: rgb(0, 0, 0);
+                                  }
+
+.dropdown:hover .dropdown-items {
+                 display: block;
+                                  }
