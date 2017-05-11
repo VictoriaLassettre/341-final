@@ -15,7 +15,7 @@ height: 100%;
 background-color: rgb(210,179,229)}
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {position: relative;
+.img1 {position: relative;
 opacity: .75;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -23,7 +23,61 @@ background-position: center;
 background-size: cover;
 }
 
+.img2 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
 
+.img3 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img4 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img5 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img6 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img7 {position: relative;
+opacity: 1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img8 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.img9 {position: relative;
+opacity: .75;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
 .img1 {
         min-height: 800px;
         background-image: url("../imgs/dascover.jpg");
